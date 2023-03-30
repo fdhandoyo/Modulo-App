@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val angkaPertama = binding.angkaPertamaInp.text.toString().toFloat()
-        val angkaModulus = binding.angkaModulusInp.text.toString().toFloat()
+        val angkaPertama = binding.angkaPertamaInp.text.toString().toInt()
+        val angkaModulus = binding.angkaModulusInp.text.toString().toInt()
 
         val hasilModulus = angkaPertama % angkaModulus
 
