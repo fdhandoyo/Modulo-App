@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Modulo</string>
+    <string name="textJudul">Selamat Datang di The Modulo untuk Menghitung Modulus</string>
+    <string name="judulKalkulator">Modulus Calculator</string>
+    <string name="angka1">Masukkan Angka</string>
+    <string name="angka2">Masukkan Modulus</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">Hasik = 0</string>
+
+
+
+
 </resources>
