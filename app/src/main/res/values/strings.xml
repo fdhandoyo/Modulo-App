@@ -5,9 +5,19 @@
     <string name="angka1">Masukkan Angka</string>
     <string name="angka2">Masukkan Modulus</string>
     <string name="hitung">Hitung</string>
-    <string name="hasil">Hasik = 0</string>
-
-
-
+    <string name="hasil">Hasil = %1$.2f</string>
+    <string name="bagikan">Hasil = %1$.2f</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="angka1_invalid">Angka tidak boleh kosong</string>
+    <string name="angka2_invalid">Angka tidak boleh kosong</string>
+    <string name="histori">Histori</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="hapus">Hapus</string>
+    <string name="AboutFragment">About</string>
+    <string name="konfirmasi_hapus">Hapus semua histori</string>
+    <string name="batal">Batal</string>
+    <string name="copyright">Modulus merupakan sebuah aplikasi Android untuk menghitung modulus sehingga kita mengetahui hasil modulus dari 2 bilangan.</string>
+    <string name="bagikan_template">Berikut hasil modulus \n Angka: %1$s\n Modulus: %2$s \n Hasil = %3$s</string>
 
 </resources>
