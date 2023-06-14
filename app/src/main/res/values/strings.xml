@@ -19,5 +19,12 @@
     <string name="batal">Batal</string>
     <string name="copyright">Modulus merupakan sebuah aplikasi Android untuk menghitung modulus sehingga kita mengetahui hasil modulus dari 2 bilangan.</string>
     <string name="bagikan_template">Berikut hasil modulus \n Angka: %1$s\n Modulus: %2$s \n Hasil = %3$s</string>
+    <string name="koneksi_error">Koneksi error</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="informasi">Informasi</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data informasi</string>
+    <string name="notif_title">Cari Tahu Tentang Modulus!</string>
+    <string name="notif_text">Pelajari sekarang tentang Modulus di Modulo!</string>
 
 </resources>

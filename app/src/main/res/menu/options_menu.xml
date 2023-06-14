@@ -10,4 +10,9 @@
         android:id="@+id/menu_about"
         android:title="@string/tentang_aplikasi"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/baseline_info_24"
+        android:title="@string/informasi"
+        app:showAsAction="ifRoom"/>
 </menu>

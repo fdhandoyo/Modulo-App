@@ -1,8 +1,10 @@
 package org.d3if3019.modulo.ui.hitung
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -21,6 +23,51 @@ class HitungFragment: Fragment() {
         ViewModelProvider(this, factory)[HitungViewModel::class.java]
     }
 
+    override fun onStart() {
+        super.onStart()
+        Log.i("HitungFragment", "onStart dilakukan")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i("HitungFragment", "onResume dilakukan")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.i("HitungFragment", "onPause dilakukan")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i("HitungFragment", "onStop dilakukan")
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        Log.i("HitungFragment", "onDestroyView dilakukan")
+    }
+
+    override fun onDestroy() {
+        Log.i("HitungFragment", "onDestroy dilakukan")
+        super.onDestroy()
+    }
+
+    override fun onDetach() {
+        Log.i("HitungFragment", "onDetach dilakukan")
+        super.onDetach()
+    }
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        Log.i("HitungFragment", "onAttach dilakukan")
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.i("HitungFragment", "onCreate dilakukan")
+    }
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.options_menu, menu)
@@ -37,6 +84,12 @@ class HitungFragment: Fragment() {
             } R.id.menu_histori -> {
                 findNavController().navigate(
                     R.id.action_hitungFragment_to_historiFragment
+                )
+                return true
+            }
+            R.id.menu_info -> {
+                findNavController().navigate(
+                    R.id.action_hitungFragment_to_informasiFragment
                 )
                 return true
             }

@@ -15,6 +15,9 @@
         <action
             android:id="@+id/action_hitungFragment_to_historiFragment"
             app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_informasiFragment"
+            app:destination="@id/informasiFragment" />
 
     </fragment>
     <fragment
@@ -27,5 +30,10 @@
         android:name="org.d3if3019.modulo.ui.histori.HistoriFragment"
         android:label="@string/histori"
         tools:layout="@layout/fragment_histori"/>
+    <fragment
+        android:id="@+id/informasiFragment"
+        android:name="org.d3if3019.mobpro1.ui.main.InformasiFragment"
+        android:label="@string/informasi"
+        tools:layout="@layout/fragment_informasi"/>
 
 </navigation>

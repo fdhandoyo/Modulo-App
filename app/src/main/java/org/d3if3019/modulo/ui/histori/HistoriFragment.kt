@@ -1,6 +1,8 @@
 package org.d3if3019.modulo.ui.histori
 
+import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -11,6 +13,8 @@ import org.d3if3019.modulo.R
 import org.d3if3019.modulo.databinding.FragmentHistoriBinding
 import org.d3if3019.modulo.db.BmiDb
 
+
+
 class HistoriFragment: Fragment() {
     private val viewModel: HistoriViewModel by lazy {
         val db = BmiDb.getInstance(requireContext())
@@ -20,6 +24,51 @@ class HistoriFragment: Fragment() {
 
     private lateinit var binding: FragmentHistoriBinding
     private lateinit var myAdapter: HistoriAdapter
+
+    override fun onStart() {
+        super.onStart()
+        Log.i("HistoryFragment", "onStart dilakukan")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.i("HistoryFragment", "onResume dilakukan")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.i("HistoryFragment", "onPause dilakukan")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.i("HistoryFragment", "onStop dilakukan")
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        Log.i("HistoryFragment", "onDestroyView dilakukan")
+    }
+
+    override fun onDestroy() {
+        Log.i("HistoryFragment", "onDestroy dilakukan")
+        super.onDestroy()
+    }
+
+    override fun onDetach() {
+        Log.i("HistoryFragment", "onDetach dilakukan")
+        super.onDetach()
+    }
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        Log.i("HistoryFragment", "onAttach dilakukan")
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Log.i("HistoryFragment", "onCreate dilakukan")
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View? {
