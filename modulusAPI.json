@@ -1,0 +1,6 @@
+[
+    {"judul": "Definisi Modulus", "penjelasan": "Modulus adalah sisa dari hasil pembagian suatu bilangan dengan bilangan lain. Contohnya, jika kita membagi 10 dengan 3, maka hasilya adalah 3 dengan sisa 1. Dalam hal ini, modulus adalah 1.", "imageId": "definisi"},
+    {"judul": "Kegunaan Modulus di Matematika", "penjelasan": "Modulus biasanya digunakan untuk menentukan apakah suatu bilangan adalah bilangan genap atau ganjil.", "imageId": "kegunaan"},
+    {"judul": "Kegunaan Modulus di Algoritma", "penjelasan": "Modulus sering digunakan dalam algoritma untuk memeriksa apakah suatu bilangan adalah kelipatan dari bilangan lain.", "imageId": "kegunaan2"},
+    {"judul": "Kegunaan Modulus di Pemrograman", "penjelasan": "Modulus juga sering digunakan dalam pemrograman, terutama dalam pemrograman komputer. Operator modulus dalam bahasa pemrograman seperti C+ + dan Java ditandai dengan simbol %.", "imageId": "logo c++"}
+]
